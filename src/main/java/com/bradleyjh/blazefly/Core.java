@@ -212,7 +212,7 @@ public class Core {
             if (stack == null) { continue; }
             if (stack.getDurability() != subdata) { continue; }
             
-            if (stack.getData().getItemType().equals(Material.getMaterial(material.toUpperCase()))) {
+            if (stack.getType().equals(Material.getMaterial(material.toUpperCase()))) {
                 return true;
             }
         }
