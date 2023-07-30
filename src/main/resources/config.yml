@@ -1,0 +1,43 @@
+#####################################
+###                               ###
+###  BlazeFly configuration file  ###
+###                               ###
+#####################################
+
+# Check and alert when a newer version is available
+updateChecker: true
+# Message admins as they log in if a new version is available
+notifyAdmin: true
+# The name of the block to be used as fuel
+fuelBlock: "BLAZE_ROD"
+# What users will be told is fuel
+fuelName: "Blaze Rod"
+# If you don't know what this is, leave it as 0
+fuelSubdata: 0
+# The time in seconds each block of fuel will last
+fuelTime: 60
+# The name of the block to be used as fuel for VIPs
+VIPBlock: "COAL"
+# What VIP users will be told is fuel
+VIPName: "Coal"
+# If you don't know what this is, leave it as 0
+VIPSubdata: 0
+# The time in seconds each block of fuel will last for VIPs
+VIPTime: 120
+# Amount of fuel to use while grounded (0.5 = half, 1 = full, etc)
+groundFuel: 0.25
+# Enables the use of /flyspeed to modify the flight speed
+allowSpeed: true
+# Flying fast will cost more fuel (eg. 2x speed halves fuelTime)
+speedFuel: true
+# Flight will be disabled for a user if they take any damage
+breakableWings: true
+# The time in seconds until wings heal
+healTime: 15
+# Protect players from fall damage due to fuel running out
+fallProtection: true
+
+# A list of worlds that BlazeFly will be disabled in
+disabledWorlds:
+  - "world5"
+  - "world5_nether"
